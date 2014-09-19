@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MadeWithDough</title>
+  <link href="assets/dough/assets/stylesheets/basic.css%3Fbody=1.css" media="screen" rel="stylesheet" />
+  <link href="assets/dough/assets/stylesheets/font_files.css%3Fbody=1.css" media="screen" rel="stylesheet" />
+
+  <!--[if ( gte IE 7 ) & ( lte IE 8 ) & (!IEMobile) ]>
+    <link href="/assets/dough/assets/stylesheets/font_files.css?body=1" media="screen" rel="stylesheet" />
+    <link href="/assets/enhanced_fixed.css?body=1" media="all" rel="stylesheet" />
+    <script>var responsiveStyle = false;</script>
+  <![endif]-->
+
+  <!--[if ( !IE ) | ( gte IE 9 ) ]><!-->
+  <link href="assets/enhanced_responsive.css%3Fbody=1.css" media="only all" rel="stylesheet" />
+  <script>var responsiveStyle = true;</script>
+  <!--<![endif]-->
+
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="on0zVmdD4oD4ToQ0yrNgZLEYfmB03rZ65UkA5YBtLEw=" name="csrf-token" />
+</head>
+<body>
+
+  <h1>Inset Block</h1>
+
+<h2>Rules</h2>
+
+<p>This is a dummy component and shouldn&#39;t be used. It&#39;s only for demo.</p>
+
+<p>Here is some <em>lovely</em> <strong><em>markdown</em></strong> <a href="http://www.google.com">though</a>!</p>
+
+  <br><br>
+  &lt;%= inset_block &quot;This is some inset block text&quot; %&gt;
+
+  <br><br>
+  <div class="inset-block">
+  <div class="inset-block__content-container">
+    <p class="inset-block__text">This is some inset block text</p>
+  </div>
+</div>
+
+
+  <br><br>
+
+
+</body>
+</html>
